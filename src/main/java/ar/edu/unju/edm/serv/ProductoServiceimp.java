@@ -8,6 +8,8 @@ import org.springframework.stereotype.Service;
 import ar.edu.unju.edm.model.Producto;
 @Service
 public class ProductoServiceimp implements ProductoService {
+	
+
 	//como se hace
 	//guardar en array
 	//guarde en BD
