@@ -15,4 +15,5 @@ public interface ProductoService {
 	public Producto obtenerProducto(String nombreProducto);
 	public ArrayList<Producto> obtenerTodoProducto();
 	public Producto obtenerProductoNuevo();
+	public Producto obtenerUltimoProducto();
 }
