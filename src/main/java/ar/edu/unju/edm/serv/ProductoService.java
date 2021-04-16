@@ -2,8 +2,11 @@ package ar.edu.unju.edm.serv;
 
 import java.util.ArrayList;
 
+import org.springframework.stereotype.Service;
+
 import ar.edu.unju.edm.model.Producto;
 
+@Service
 public interface ProductoService {
 //que se hace
 	public void guardarProducto(Producto unProducto);
